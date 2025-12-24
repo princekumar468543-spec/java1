@@ -1,61 +1,62 @@
-const prompt = require("prompt-sync")();
+const prompt = require("prompt-sync")()
 /*
-let n = 7;
-let a = 0;
-let b = 1;
-for(i = 1; i<n; i++){
-    console.log(a);
-        let next  = a + b;
-        a = b;
-        b = next;  
-}
-        
+let i = Number(prompt("Enter the number"))
+for (let i = 1; i <= 100; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
 
-let N1 = 8;
-
-for ( let i = 1; i<=N1; i++){
-    let line = "";
-
-    for (let j = 1; j<=i; j++){
-    line = line +"*";
-}
-console.log(line);
-}
-
-
-let n1 = 8;
-
-for(let i = n1; i>=1; i--){
-    let line = "";
-    for(let j = 1;j<=i; j++){
-        line = line + "*";
     }
-    console.log(line);
 }
-    
 
-let N = 8;
 
-for ( let i = 1; i<=N; i++){
-    let line = "";
-
-    for (let j = 1; j<=i; j++){
-    line = line + i;
+let sum = 0;
+for (i = 1; i <= 100; i++) {
+    sum = sum + i;
 }
-console.log(line);
+console.log(sum);
+
+
+let a = 2;
+for (i = 1; i <= 10; i++) {
+    console.log(a * i);
 }
+
+
+for (let i = 100; i >= 1; i--) {
+    console.log(i);
+}
+
+let n = 4;
+let fact = 1;
+for (let i = 1; i <= n; i++
+
+) {
+    fact = fact * i;
+}
+console.log(fact);
+
+
+let z = Number(prompt("Enter the Number"));
+let sum = 0;
+while (z > 0) {
+    sum = sum + (z % 10);
+    z = Math.floor(z / 10);
+}
+
+console.log(sum);
 */
 
-let n2 = 8;
-
-for(let i = n2; i>=1; i--){
-    let line = "";
-    for(let j = 1;j<=i; j++){
-        line = line + i;
-    }
-    console.log(line);
+let y = Number(prompt("Enter the Number"));
+let count = 0;
+while (y > 0) {
+    count++;
+    y = Math.floor(y / 10);
 }
-    
 
-    
+console.log(count);
+
+
+
+
+
 
